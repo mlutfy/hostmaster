@@ -47,6 +47,12 @@ projects[hosting_dns][download][branch] = 7.x-3.x
 projects[hosting_https][download][type] = git
 projects[hosting_https][download][branch] = 7.x-3.x
 
+projects[hosting_deploy][download][type] = git
+projects[hosting_deploy][download][branch] = 7.x-3.x
+
+projects[aegir_objects][download][type] = git
+projects[aegir_objects][download][branch] = 7.x-3.x
+
 
 ; Modules - Dev
 
