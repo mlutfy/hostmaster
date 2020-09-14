@@ -72,8 +72,8 @@ projects[module_filter][version] = 2.2
 projects[openidadmin][version] = 1.0
 projects[overlay_paths][version] = 1.3
 projects[r4032login][version] = 1.8
-projects[views][version] = 3.23
-projects[views_bulk_operations][version] = 3.5
+projects[views][version] = 3.24
+projects[views_bulk_operations][version] = 3.6
 
 ; Two factor authentication
 projects[libraries][version] = 2.5
