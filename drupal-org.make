@@ -10,11 +10,11 @@ defaults[projects][type] = "module"
 projects[eldir][type] = theme
 projects[eldir][download][type] = git
 projects[eldir][subdir] = aegir
-projects[eldir][download][tag] = 7.x-3.180
+projects[eldir][download][tag] = 7.x-3.190
 
 projects[hosting][download][type] = git
 projects[hosting][subdir] = aegir
-projects[hosting][download][tag] = 7.x-3.180
+projects[hosting][download][tag] = 7.x-3.190
 
 
 
@@ -22,27 +22,27 @@ projects[hosting][download][tag] = 7.x-3.180
 
 projects[hosting_git][download][type] = git
 projects[hosting_git][subdir] = aegir
-projects[hosting_git][download][tag] = 7.x-3.180
+projects[hosting_git][download][tag] = 7.x-3.190
 
 projects[hosting_remote_import][download][type] = git
 projects[hosting_remote_import][subdir] = aegir
-projects[hosting_remote_import][download][tag] = 7.x-3.180
+projects[hosting_remote_import][download][tag] = 7.x-3.190
 
 projects[hosting_site_backup_manager][download][type] = git
 projects[hosting_site_backup_manager][subdir] = aegir
-projects[hosting_site_backup_manager][download][tag] = 7.x-3.180
+projects[hosting_site_backup_manager][download][tag] = 7.x-3.190
 
 projects[hosting_tasks_extra][download][type] = git
 projects[hosting_tasks_extra][subdir] = aegir
-projects[hosting_tasks_extra][download][tag] = 7.x-3.180
+projects[hosting_tasks_extra][download][tag] = 7.x-3.190
 
 projects[hosting_civicrm][download][type] = git
 projects[hosting_civicrm][subdir] = aegir
-projects[hosting_civicrm][download][tag] = 7.x-3.180
+projects[hosting_civicrm][download][tag] = 7.x-3.190
 
 projects[hosting_logs][download][type] = git
 projects[hosting_logs][subdir] = aegir
-projects[hosting_logs][download][tag] = 7.x-3.180
+projects[hosting_logs][download][tag] = 7.x-3.190
 
 projects[hosting_dns][download][type] = git
 projects[hosting_dns][subdir] = aegir
@@ -50,15 +50,15 @@ projects[hosting_dns][download][branch] = 7.x-3.x
 
 projects[hosting_https][download][type] = git
 projects[hosting_https][subdir] = aegir
-projects[hosting_https][download][tag] = 7.x-3.183
+projects[hosting_https][download][tag] = 7.x-3.190
 
 projects[hosting_deploy][download][type] = git
 projects[hosting_deploy][subdir] = aegir
-projects[hosting_deploy][download][tag] = 7.x-3.2
+projects[hosting_deploy][download][tag] = 7.x-3.190
 ; Dependency of hosting_deploy
 projects[aegir_objects][download][type] = git
 projects[aegir_objects][subdir] = aegir
-projects[aegir_objects][download][tag] = 7.x-3.1
+projects[aegir_objects][download][tag] = 7.x-3.190
 
 ; Modules - contrib
 
