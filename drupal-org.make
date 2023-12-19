@@ -38,7 +38,7 @@ projects[hosting_tasks_extra][download][tag] = 7.x-3.190
 
 projects[hosting_civicrm][download][type] = git
 projects[hosting_civicrm][subdir] = aegir
-projects[hosting_civicrm][download][tag] = 7.x-3.x
+projects[hosting_civicrm][download][branch] = 7.x-3.x
 
 projects[hosting_logs][download][type] = git
 projects[hosting_logs][subdir] = aegir
