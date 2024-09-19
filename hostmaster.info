@@ -13,7 +13,6 @@ dependencies[] = filter
 dependencies[] = help
 dependencies[] = menu
 dependencies[] = node
-dependencies[] = overlay
 dependencies[] = system
 dependencies[] = user
 
@@ -31,14 +30,9 @@ dependencies[] = hosting_server
 ;dependencies[] = hosting_cron
 ;dependencies[] = hosting_migrate
 
-;; Aegir golden contrib ;;
-dependencies[] = hosting_platform_composer_git
-dependencies[] = hosting_platform_git
-
 ;; Drupal contrib ;;
 dependencies[] = admin_menu
 dependencies[] = betterlogin
-dependencies[] = overlay_paths
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = actions_permissions

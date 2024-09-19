@@ -4,7 +4,6 @@ api = 2
 defaults[projects][subdir] = "contrib"
 defaults[projects][type] = "module"
 
-
 ; Aegir core
 
 projects[eldir][type] = theme
@@ -16,13 +15,7 @@ projects[hosting][download][type] = git
 projects[hosting][subdir] = aegir
 projects[hosting][download][tag] = 7.x-3.190
 
-
-
 ; Modules - Aegir "golden"
-
-projects[hosting_git][download][type] = git
-projects[hosting_git][subdir] = aegir
-projects[hosting_git][download][tag] = 7.x-3.190
 
 projects[hosting_remote_import][download][type] = git
 projects[hosting_remote_import][subdir] = aegir
@@ -38,15 +31,12 @@ projects[hosting_tasks_extra][download][tag] = 7.x-3.190
 
 projects[hosting_civicrm][download][type] = git
 projects[hosting_civicrm][subdir] = aegir
-projects[hosting_civicrm][download][branch] = 7.x-3.x
+projects[hosting_civicrm][download][url] = "http://github.com/mlutfy/hosting_civicrm.git"
+projects[hosting_civicrm][download][branch] = symbiotic
 
 projects[hosting_logs][download][type] = git
 projects[hosting_logs][subdir] = aegir
 projects[hosting_logs][download][tag] = 7.x-3.190
-
-projects[hosting_dns][download][type] = git
-projects[hosting_dns][subdir] = aegir
-projects[hosting_dns][download][branch] = 7.x-3.x
 
 projects[hosting_https][download][type] = git
 projects[hosting_https][subdir] = aegir
@@ -70,7 +60,6 @@ projects[entity][version] = 1.10
 projects[features][version] = 2.13
 projects[module_filter][version] = 2.2
 projects[openidadmin][version] = 1.0
-projects[overlay_paths][version] = 1.3
 projects[r4032login][version] = 1.8
 projects[views][version] = 3.29
 projects[views_bulk_operations][version] = 3.7
