@@ -1,28 +1,20 @@
 core = 7.x
 api = 2
 
-
-
 ; Includes
-
 ; This makefile will make sure we get the development code from the Aegir
 ; modules instead of the tagged releases.
 includes[hostmaster] = drupal-org.make
 
-
-
 ; Aegir core
-
 projects[eldir][download][type] = git
 projects[eldir][download][branch] = 7.x-3.x
 
 projects[hosting][download][type] = git
-projects[hosting][download][branch] = 7.x-3.x
-
-
+projects[hosting][download][branch] = symbiotic
+projects[hosting][download][url] = "http://github.com/mlutfy/hosting.git"
 
 ; Modules - Aegir "golden"
-
 projects[hosting_git][download][type] = git
 projects[hosting_git][download][branch] = 7.x-3.x
 
@@ -40,9 +32,6 @@ projects[hosting_civicrm][download][branch] = 7.x-3.x
 
 projects[hosting_logs][download][type] = git
 projects[hosting_logs][download][branch] = 7.x-3.x
-
-projects[hosting_dns][download][type] = git
-projects[hosting_dns][download][branch] = 7.x-3.x
 
 projects[hosting_https][download][type] = git
 projects[hosting_https][download][branch] = 7.x-3.x
