@@ -8,7 +8,7 @@ defaults[projects][type] = "module"
 projects[eldir][type] = theme
 projects[eldir][download][type] = git
 projects[eldir][subdir] = aegir
-projects[eldir][download][tag] = 7.x-3.x
+projects[eldir][download][branch] = 7.x-3.x
 
 projects[hosting][download][type] = git
 projects[hosting][subdir] = aegir
